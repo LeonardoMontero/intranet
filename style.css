@@ -1,0 +1,142 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.header{
+    background-color: rgba(1, 59, 175, 0.762);
+    max-width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.title{
+    display: flex;
+    justify-content: left;
+    color: white;
+    transition: transform 0.5s ease;
+}
+
+.title:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.search a{
+    margin-right: 10px;
+}
+
+
+.search a:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+}
+
+.inpute{
+    border: none;
+    outline: none;
+}
+
+.menu-icon{
+    margin-left: 25px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.menu-icon:hover{
+    transform: scale(1.2);
+}
+
+.iconers i{
+    margin-right: 20px;
+    font-size: 25px;
+    color: white;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+.iconers i:hover{
+    transform: scale(1.2);
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.side-bar{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    width: 5%;
+    background-color:  rgba(146, 146, 146, 0.762);
+    height: 100%;
+}
+
+.side-bar a{
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    transition: transform 0.2s ease;
+}
+
+.side-bar a:hover{
+    transform: scale(1.5);
+}
+
+.dados{
+    display: flex;
+    justify-content: left;
+    background-color: rgb(255, 255, 255);
+    width: 95%;
+    height: 120px;
+}
+
+.logo{
+    margin: 20px 0 0 40px;
+    background-color: rgba(1, 59, 175, 0.762);
+    height: 70px;
+    width: 70px;
+}
+
+.logo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.nome{
+    margin: 20px 0 0 40px;
+    justify-content: left;
+}
+
+.nome a{
+    text-decoration: none;
+    color: black;
+    transition: transform 0.2s ease;
+}
+
+.nome a:hover{
+    color: gray;
+    transform: scale(1.2);
+}
+
